@@ -1,9 +1,11 @@
 # Description
 
+The api consists of obtaining the latest version of software, language or framework.
+
 ## Tecnologies
 
 - NodeJS 18.14.2
-- NPM
+- NPM 9.6.4
 - Nodemon 2.0.22
 - Express 4.18.2
 - Axios 1.3.6
@@ -18,7 +20,11 @@
 cp .env.example .env
 ```
 
-Change TOKEN_GITHUB variable.
+Change variables:
+
+```
+TOKEN_GITHUB
+```
 
 ```bash
 npm i
